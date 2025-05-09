@@ -1,0 +1,14 @@
+train_rgb: /home/lilin/tangyujing/multispectral-object-detection/data/M3FD/M3FD_Detection/RGBimages/train_8_2
+val_rgb: /home/lilin/tangyujing/multispectral-object-detection/data/M3FD/M3FD_Detection/RGBimages/val_8_2  
+train_ir: /home/lilin/tangyujing/multispectral-object-detection/data/M3FD/M3FD_Detection/IRimages/train_8_2
+val_ir: /home/lilin/tangyujing/multispectral-object-detection/data/M3FD/M3FD_Detection/IRimages/val_8_2
+
+# train_rgb: /home/disk0/zyq/datasets/M3FD/RGBimages/train
+# val_rgb: /home/disk0/zyq/datasets/M3FD/RGBimages/train  
+# train_ir: /home/disk0/zyq/datasets/M3FD/IRimages/train
+# val_ir: /home/disk0/zyq/datasets/M3FD/IRimages/train
+# number of classes
+nc: 6
+
+# class names
+names: [ 'People', 'Car', 'Bus', 'Lamp', 'Motorcycle', 'Truck']
