@@ -1,2 +1,5 @@
 torch>=1.12
 numpy
+matplotlib
+networkx
+re
